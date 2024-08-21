@@ -1,0 +1,115 @@
+body {
+    background-color: #f0f0f0;
+}
+p {
+    color: red;
+}
+.container {
+    background-color: yellow;
+}
+#highlight {
+    color: orange;
+    font-size: 20px;
+}
+:hover {
+    color: blue;
+}
+#boxModel {
+    width: 300px;              /* Lebar */
+    height: 150px;             /* Tinggi */
+    padding: 20px;             /* Padding */
+    border: 5px solid black;  /* Border */
+    margin: 15px;              /* Margin */
+    background-color: lightgray; /* Background color for visibility */
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between; /* Atur jarak antar item */
+    align-items: center;            /* Pusatkan item secara vertikal */
+    padding: 10px;
+}
+item {
+    padding: 10px;                /* Padding */
+    border: 2px solid gray;       /* Border */
+    background-color: lightblue;  /* Background color for visibility */
+}h2 {
+    font-family: Arial, sans-serif; /* Font style */
+    font-size: 30px;                /* Font size */
+    font-weight: bold;              /* Font weight */
+}
+.background-example 
+    background-image: url('background-image.jpg'); /* Ganti dengan URL gambar yang sesuai */
+    background-size: cover;         /* Atur ukuran background untuk menutupi elemen */
+    background-repeat: no-repeat;   /* Jangan ulang background */
+    padding: 10px;                  /* Padding untuk teks */
+    .advanced-style {
+        border-radius: 10px;             /* Radius border */
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Box shadow */
+        background: linear-gradient(to right, blue, purple); /* Gradient background */
+        padding: 20px;                  /* Padding untuk konten */
+        color: white;                   /* Warna teks */
+    }
+    p {
+        color: red;
+    }
+    .container {
+        background-color: yellow;
+    }
+    {
+        color: orange;
+        font-size: 20px;
+    }
+    :hover {
+        color: blue;
+    }
+    {
+        width: 300px;              /* Lebar */
+        height: 150px;             /* Tinggi */
+        padding: 20px;             /* Padding */
+        border: 5px solid black;  /* Border */
+        margin: 15px;              /* Margin */
+        background-color: lightgray; /* Background color for visibility */
+    }
+    .flex-container {
+        display: flex;
+        justify-content: space-between; /* Atur jarak antar item */
+        align-items: center;            /* Pusatkan item secara vertikal */
+        padding: 10px;
+    }
+    .item {
+        padding: 10px;                /* Padding */
+        border: 2px solid gray;       /* Border */
+        background-color: lightblue;  /* Background color for visibility */
+    }
+    h2 {
+        font-family: Arial, sans-serif; /* Font style */
+        font-size: 30px;                /* Font size */
+        font-weight: bold;              /* Font weight */
+    }
+    p {
+        background-image: url('awan_Kemenagg.jpg'); /* Ganti dengan URL gambar yang sesuai */
+        background-size: cover;         /* Atur ukuran background untuk menutupi elemen */
+        background-repeat: no-repeat;   /* Jangan ulang background */
+        padding: 10px;                  /* Padding untuk teks */
+    }
+    .advanced-style {
+        border-radius: 10px;             /* Radius border */
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Box shadow */
+        background: linear-gradient(to right, blue, purple); /* Gradient background */
+        padding: 20px;                  /* Padding untuk konten */
+        color: white;                   /* Warna teks */
+    }
+    @media (max-width: 600px) {
+        .flex-container {
+            flex-direction: column;      /* Ubah tata letak menjadi kolom */
+            align-items: flex-start;     /* Pusatkan item secara horizontal jika diperlukan */
+        }
+    
+        h2 {
+            font-size: 24px;            /* Ubah ukuran font menjadi 24px */
+        }
+    
+        body {
+            background-color: #e0f7fa;  /* Ubah warna latar belakang halaman menjadi biru muda */
+        }
+    }
